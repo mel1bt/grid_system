@@ -1,1 +1,37 @@
-/* Inserta tu código aqui */
+
+footer {
+	height: 110px;
+	background: #6E6E6E;
+	position: relative;
+	text-align: center;
+	font-family: arial;
+}
+
+footer div ul li{
+	list-style: none;
+	display: inline-block;
+	padding-top: 5px;
+}
+
+footer div ul li a {
+	text-decoration: none;
+	color: #424242;
+	font-size: 0.75em;
+	padding-left: 8px;
+
+}
+footer div p a {
+	font-size: 1em;
+		text-decoration: none;
+		color: #424242;
+}
+.texto {
+	color: white;
+	font-size: 0.75em;
+	padding-top: 10px;
+}
+.copy {
+		color: #424242;
+	font-size: 0.5em;
+	padding-top: 10px;
+}
