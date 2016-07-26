@@ -1,4 +1,35 @@
 
+header {
+	background-color: #333333;
+}
+
+header nav ul li{
+	position: relative;
+	list-style: none;
+	float: right;
+	display: inline-block;
+}
+
+header nav ul a{
+	position: relative;
+	padding: 10px 15px;
+	color: #fff;
+	text-decoration: none;
+	font-size: 0.95em;
+	font-family: arial;
+	top:40px;
+	
+}
+
+header nav ul a:hover{
+background-color: gray;
+} 
+
+.logo{
+	float: left;
+}
+
+/*empieza footer*/
 footer {
 	height: 110px;
 	background: #6E6E6E;
@@ -34,4 +65,3 @@ footer div p a {
 		color: #424242;
 	font-size: 0.5em;
 	padding-top: 10px;
-}
