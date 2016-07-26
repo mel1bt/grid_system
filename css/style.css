@@ -4,20 +4,22 @@ header {
 }
 
 header nav ul li{
+
 	position: relative;
 	list-style: none;
 	float: right;
 	display: inline-block;
+
 }
 
 header nav ul a{
 	position: relative;
 	padding: 10px 15px;
-	color: #fff;
 	text-decoration: none;
 	font-size: 0.95em;
 	font-family: arial;
 	top:40px;
+	color: white;
 	
 }
 
@@ -29,7 +31,8 @@ background-color: gray;
 	float: left;
 }
 
-/*empieza footer*/
+/*empieza footer}*/
+
 footer {
 	height: 110px;
 	background: #6E6E6E;
@@ -38,30 +41,31 @@ footer {
 	font-family: arial;
 }
 
-footer div ul li{
-	list-style: none;
-	display: inline-block;
-	padding-top: 5px;
-}
-
-footer div ul li a {
+footer div a {
 	text-decoration: none;
-	color: #424242;
-	font-size: 0.75em;
 	padding-left: 8px;
+	color: #424242;
 
 }
+
 footer div p a {
 	font-size: 1em;
-		text-decoration: none;
-		color: #424242;
+	text-decoration: none;
+	color: #424242;
 }
+
 .texto {
 	color: white;
 	font-size: 0.75em;
-	padding-top: 10px;
+	padding-top: 12px;
+	text-align: left;
+
 }
-.copy {
+.submenu {
+	padding-top: 12px;
+}
+.read {
 		color: #424242;
-	font-size: 0.5em;
-	padding-top: 10px;
+	font-size: 0.7em;
+	padding-top: 12px;
+}
