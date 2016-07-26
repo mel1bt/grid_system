@@ -1,1 +1,29 @@
-/* Inserta tu código aqui */
+header {
+	background-color: #333333;
+}
+
+header nav ul li{
+	position: relative;
+	list-style: none;
+	float: right;
+	display: inline-block;
+}
+
+header nav ul a{
+	position: relative;
+	padding: 10px 15px;
+	color: #fff;
+	text-decoration: none;
+	font-size: 0.95em;
+	font-family: arial;
+	top:40px;
+	
+}
+
+header nav ul a:hover{
+background-color: gray;
+} 
+
+.logo{
+	float: left;
+}
