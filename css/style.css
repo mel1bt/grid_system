@@ -1,6 +1,6 @@
 
 header {
-	background-color: #333333;
+	background-color:#3e3f40 ;
 }
 
 header nav ul li{
@@ -15,53 +15,83 @@ header nav ul a{
 	padding: 10px 15px;
 	color: #fff;
 	text-decoration: none;
-	font-size: 0.95em;
-	font-family: arial;
+	font-size: 20px;
+	font-family: 'Slabo 27px', serif;
 	top:40px;
 	
 }
 
 header nav ul a:hover{
-background-color: gray;
+    background-color: gray;
 } 
 
-.logo{
+.logo-header{
 	float: left;
+	margin-left: 15px;
 }
 
-/*empieza footer*/
+.col-3 p img.icons {
+	margin-right: 15px;
+	width: 13.5px;
+}
+
+.separador{
+	width: 260px;
+    border: 1px solid #d4d4d4;
+    margin-top: -12px;
+    margin-bottom: 29px;
+}
+.aside{
+	margin-bottom: 40px;
+}
+.aside h3{
+	font-family: 'Indie Flower', cursive;
+	font-weight: 600;
+	color: #585858;
+}
+.aside p{
+	font-family: Arial;
+	font-size:16px;
+}
+.aside  a{
+	text-decoration: none;
+}
+
 footer {
-	height: 110px;
+	height: 272px;
 	background: #6E6E6E;
-	position: relative;
 	text-align: center;
 	font-family: arial;
+	padding: 20px 0px;
 }
 
-footer div ul li{
-	list-style: none;
-	display: inline-block;
-	padding-top: 5px;
-}
-
-footer div ul li a {
+footer div a {
 	text-decoration: none;
-	color: #424242;
-	font-size: 0.75em;
 	padding-left: 8px;
+	color: #424242;
 
 }
+
 footer div p a {
 	font-size: 1em;
-		text-decoration: none;
-		color: #424242;
+	text-decoration: none;
+	color: #424242;
+	font-family: 'Indie Flower', cursive;
 }
+
 .texto {
 	color: white;
-	font-size: 0.75em;
-	padding-top: 10px;
+	font-size: 21px;
+	padding-top: 12px;
+	text-align: left;
+	font-family: 'Indie Flower', cursive;
+
 }
-.copy {
-		color: #424242;
-	font-size: 0.5em;
-	padding-top: 10px;
+.submenu {
+	margin: 50px;
+}
+.read {
+	color: #424242;
+	font-size: 0.7em;
+	margin: 50px;
+}
